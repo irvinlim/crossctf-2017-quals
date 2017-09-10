@@ -1,0 +1,94 @@
+// After line 7
+
+0xbfd1fea0  66870408  pointer  0x08048766
+`- 0x08048766  456e7465  pointer  0x65746e45
+`- 0xbfd1fea4  2f000000  pointer  0x0000002f
+`- 0x0000002f  ffffffff  invalid
+0xbfd1fea8  c8bd61b7  pointer  0xb761bdc8
+`- 0xb761bdc8  762b0000  pointer  0x00002b76
+`- 0xbfd1feac  58d87cb7  pointer  0xb77cd858
+`- 0xb77cd858  00f060b7  pointer  0xb760f000
+`- 0xbfd1feb0  00800000  pointer  0x00008000
+0xbfd1feb4  00107cb7  pointer  0xb77c1000
+`- 0xb77c1000  b01d1b00  pointer  0x001b1db0
+`- 0xbfd1feb8  44f27bb7  pointer  0xb77bf244
+`- 0xb77bf244  207062b7  pointer  0xb7627020
+`- 0xbfd1febc  e9830408  pointer  0x080483e9
+`- 0x080483e9  81c3cf15  pointer  0x15cfc381
+`- 0xbfd1fec0  02000000  pointer  0x00000002
+`- 0x00000002  ffffffff  invalid
+
+// After line 8
+
+0xbfd1feb0  00800000  pointer  0x00008000
+`- 0x00008000  ffffffff  invalid
+0xbfd1feb4  00107cb7  pointer  0xb77c1000
+`- 0xb77c1000  b01d1b00  pointer  0x001b1db0
+`- 0xbfd1feb8  44f27bb7  pointer  0xb77bf244
+`- 0xb77bf244  207062b7  pointer  0xb7627020
+`- 0xbfd1febc  e9830408  pointer  0x080483e9
+`- 0x080483e9  81c3cf15  pointer  0x15cfc381
+`- 0xbfd1fec0  02000000  pointer  0x00000002
+`- 0x00000002  ffffffff  invalid
+
+// After line 10
+
+0xbfd1fea8  c8bd61b7  pointer  0xb761bdc8
+`- 0xb761bdc8  762b0000  pointer  0x00002b76
+`- 0xbfd1feac  58d87cb7  pointer  0xb77cd858
+`- 0xb77cd858  00f060b7  pointer  0xb760f000
+`- 0xbfd1feb0  00800000  pointer  0x00008000
+`- 0x00008000  ffffffff  invalid
+0xbfd1feb4  00107cb7  pointer  0xb77c1000
+`- 0xb77c1000  b01d1b00  pointer  0x001b1db0
+`- 0xbfd1feb8  44f27bb7  pointer  0xb77bf244
+`- 0xb77bf244  207062b7  pointer  0xb7627020
+`- 0xbfd1febc  e9830408  pointer  0x080483e9
+`- 0x080483e9  81c3cf15  pointer  0x15cfc381
+`- 0xbfd1fec0  02000000  pointer  0x00000002
+`- 0x00000002  ffffffff  invalid
+
+// After line 12
+
+0xbfd1fea4  bcfed1bfc8bd61b7  pointer  0xb761bdc8bfd1febc
+`- 0xb761bdc8bfd1febc  e983040802000000  pointer  0x2080483e9
+`- 0xbfd1feac  58d87cb700800000  pointer  0x8000b77cd858
+`- 0x8000b77cd858  00f060b738d87cb7  pointer  0xb77cd838b760f000
+`- 0xbfd1feb4  00107cb744f27bb7  pointer  0xb77bf244b77c1000
+`- 0xb77bf244b77c1000  b01d1b0058d87cb7  pointer  0xb77cd858001b1db0
+`- 0xbfd1febc  e983040802000000  pointer  0x2080483e9
+`- 0x2080483e9  81c3cf1500008b83  pointer  0x838b000015cfc381
+`- 0xbfd1fec4  1f000000b8990408  pointer  0x80499b80000001f
+`- 0x80499b80000001f  ffffffffffffffff  invalid
+
+// After line 13
+
+0xbfd1fea0  78870408bcfed1bf  pointer  0xbfd1febc08048778
+`- 0xbfd1febc08048778  25730048656c6c6f  pointer  0x6f6c6c6548007325
+`- 0xbfd1fea8  c8bd61b758d87cb7  pointer  0xb77cd858b761bdc8
+`- 0xb77cd858b761bdc8  762b000040850100  pointer  0x1854000002b76
+`- 0xbfd1feb0  0080000000107cb7  pointer  0xb77c100000008000
+`- 0xb77c100000008000  ffffffffffffffff  invalid
+0xbfd1feb8  44f27bb7e9830408  pointer  0x80483e9b77bf244
+`- 0x80483e9b77bf244  207062b7907062b7  pointer  0xb7627090b7627020
+`- 0xbfd1fec0  020000001f000000  pointer  0x1f00000002
+`- 0x1f00000002  ffffffffffffffff  invalid
+
+// After line 15
+
+0xbfd1feb0
+
+17: 0xbfd1fea8
+
+sym.flag: 0x080485bb
+return address loc: 0xbff5217c
+before scanf:  (60)
+input loc: 
+
+0xbfbd23dc
+
+
+return address: 0x08048617
+sym.print_me: 0x0804854b
+return address loc: 0xbf81451c
+input loc: 0xbf8144cc

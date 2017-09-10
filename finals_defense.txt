@@ -1,0 +1,22 @@
+esp = ebp
+
+esp -= 40
+
+esp -= 12
+stack.push(0x8048766)   // "Enter your name: "
+puts.call()
+esp += 16
+
+esp -= 8
+eax = ebp-28
+stack.push(eax)
+stack.push(0x8048778)   // "%s"
+scanf.call()
+esp += 16
+
+esp -= 8
+eax = ebp-28
+stack.push(eax)
+stack.push(0x804877b)   // "Hello, %s\n"
+printf.call()
+esp += 16

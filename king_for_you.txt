@@ -1,0 +1,8 @@
+v<^> v<^>       v<^> v<^> v<^
+ABCD EFGH IKLMN OPQR STUV XYZ
+
+CrossCTF{King_For_You}
+
+v<^> v<^> v<^> v<^> v<^> v<^> 
+ΑΒΓΔ ΕΖΗΘ ΙΚΛΜ ΝΞΟΠ ΡΣΤΥ ΦΧΨΩ
+
